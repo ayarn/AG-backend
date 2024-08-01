@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to AgriGuru Online</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+            }
+            .content {
+                margin: 20px 0;
+            }
+            .footer {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                font-size: 12px;
+            }
+            .footer a {
+                color: #ff0000;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="https://agriguruonline.com/themes-nct/images-nct/9843395431667127233.png.webp" alt="AgriGuru online" width="100" height="100" />
+            </div>
+            <div class="content">
+                <p>Hi, <%= fullName %></p>
+                <h2>Welcome to AgriGuru online B2B platform for all Agro Commodities</h2>
+                <p>
+                    You've successfully completed Registration Process for the AgriGuru Online
+                    Platform
+                </p>
+                <p>Your registration as a Member is confirmed.</p>
+                <p>
+                    Confirming your account will give you full access to AgriGuru online to get
+                    prices and news updates for your products.
+                </p>
+                <p>
+                    Click on the below link to activate your account:<br />
+                    <a href=`<%= activationLink %>`>Click here</a>
+                </p>
+                <p>
+                    <strong>Instruction:</strong> After logging in, please complete your profile by
+                    uploading the required documents to become an exclusive client to get the
+                    benefit of inquiry/offer and other benefits.
+                </p>
+                <p>
+                    Need Some Help? Contact our
+                    <a href=`<%= customerServiceLink %>`>Customer Service</a>!
+                </p>
+                <p style="color: red">
+                    "This is an automated email, please do not reply. If you have any query<br />Please
+                    contact our customer care"
+                </p>
+            </div>
+            <div class="footer">
+                <p>
+                    Copyright &copy; 2024 AgriGuru Online B2B Platform for Buyers/Sellers &
+                    Exporters/Importers, All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
